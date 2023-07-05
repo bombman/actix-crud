@@ -14,3 +14,4 @@
 Local Step Run 01
 DATABASE_URL=postgres://admin:admin@localhost:5432/actix_crud
 Docker Step Run 02
+DATABASE_URL=postgres://admin:admin@dbpg/actix_crud
