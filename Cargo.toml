@@ -1,0 +1,10 @@
+[package]
+name = "actix-crud"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.3.1"
+sqlx = { version = "0.6.0", features = ["runtime-async-std-native-tls","postgres"] }
+serde = { version = "1.0.159", features = ["derive"] }
+dotenv = "0.15"
